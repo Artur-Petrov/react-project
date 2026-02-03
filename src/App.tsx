@@ -1,8 +1,10 @@
-import Message from "./components/Message.tsx";
+import ListGroup from "./components/ListGroup.tsx";
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
     return<>
-        <Message/>
+        <ListGroup/>
     </>;
 }
 export default App;
